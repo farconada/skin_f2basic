@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>labels for select box section_frames</description>
+        <type>database</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+
+        
+        <languageKey index="default" type="array">
+            <label index="tt_content.section_frames_45">Box: style1</label>
+            <label index="tt_content.section_frames_46">Box: style2</label>
+            <label index="tt_content.section_frames_47">Box: style3</label>
+            <label index="tt_content.section_frames_48">Box: style4</label>
+            <label index="tt_content.section_frames_49">Box: style5</label>
+            <label index="tt_content.section_frames_50">Box: style6</label>
+            <label index="tt_content.section_frames_51">Box: style7</label>
+            <label index="tt_content.section_frames_52">Box: style8</label>
+            <label index="tt_content.section_frames_53">Box: style9</label>
+            <label index="tt_content.section_frames_54">Box: style10</label>
+
+            <label index="tx_skin_f2basic.tscript.breadcrumb.init">You are in:</label>
+            <label index="tx_skin_f2basic.tscript.menuL1.init">Main menu</label>
+            <label index="tx_skin_f2basic.tscript.topnav.login.welcome">Welcome</label>
+            <label index="tx_skin_f2basic.tscript.topnav.login.logout">LogOut</label>
+            <label index="tx_skin_f2basic.tscript.topnav.login.loginlabel">Intranet</label>
+            <label index="tx_skin_f2basic.tscript.topsearchbox.init">Search</label>
+        </languageKey>
+
+
+        <languageKey index="en" type="array">
+            <label index="tt_content.section_frames_45">Box: style1</label>
+            <label index="tt_content.section_frames_46">Box: style2</label>
+            <label index="tt_content.section_frames_47">Box: style3</label>
+            <label index="tt_content.section_frames_48">Box: style4</label>
+            <label index="tt_content.section_frames_49">Box: style5</label>
+            <label index="tt_content.section_frames_50">Box: style6</label>
+            <label index="tt_content.section_frames_51">Box: style7</label>
+            <label index="tt_content.section_frames_52">Box: style8</label>
+            <label index="tt_content.section_frames_53">Box: style9</label>
+            <label index="tt_content.section_frames_54">Box: style10</label>
+
+            <label index="tx_skin_f2basic.tscript.breadcrumb.init">You are in:</label>
+            <label index="tx_skin_f2basic.tscript.menuL1.init">Main menu</label>
+            <label index="tx_skin_f2basic.tscript.topnav.login.welcome">Welcome</label>
+            <label index="tx_skin_f2basic.tscript.topnav.login.logout">LogOut</label>
+            <label index="tx_skin_f2basic.tscript.topnav.login.loginlabel">Intranet</label>
+            <label index="tx_skin_f2basic.tscript.topsearchbox.init">Search</label>
+        </languageKey>
+
+
+        <languageKey index="es" type="array">
+            <label index="tt_content.section_frames_45">Box: estilo 1</label>
+            <label index="tt_content.section_frames_46">Box: estilo 2</label>
+            <label index="tt_content.section_frames_47">Box: estilo 3</label>
+            <label index="tt_content.section_frames_48">Box: estilo 4</label>
+            <label index="tt_content.section_frames_49">Box: estilo 5</label>
+            <label index="tt_content.section_frames_50">Box: estilo 6</label>
+            <label index="tt_content.section_frames_51">Box: estilo 7</label>
+            <label index="tt_content.section_frames_52">Box: estilo 8</label>
+            <label index="tt_content.section_frames_53">Box: estilo 9</label>
+            <label index="tt_content.section_frames_54">Box: estilo 10</label>
+
+            <label index="tx_skin_f2basic.tscript.breadcrumb.init">Usted esta aqui:</label>
+            <label index="tx_skin_f2basic.tscript.menuL1.init">Menu principal</label>
+            <label index="tx_skin_f2basic.tscript.topnav.login.welcome">Bienvenido</label>
+            <label index="tx_skin_f2basic.tscript.topnav.login.logout">Salir de intranet</label>
+            <label index="tx_skin_f2basic.tscript.topnav.login.loginlabel">Intranet</label>
+            <label index="tx_skin_f2basic.tscript.topsearchbox.init">Buscar</label>
+        </languageKey>
+
+
+    </data>
+</T3locallang>

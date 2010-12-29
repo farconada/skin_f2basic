@@ -1,0 +1,18 @@
+/*
+STARTER IE6
+
+This sheet contains the code for fixing ie6 issues
+
+author:		Ron Hall, Busy Noggin, Inc.
+e-mail:		info@busynoggin.com
+website:	www.busynoggin.com
+
+*/
+
+#localMenuWrap {
+	display: inline;
+	}
+
+#f1a #contentBlock-1 {
+	display: inline;
+	}
