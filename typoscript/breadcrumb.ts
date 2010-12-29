@@ -1,12 +1,12 @@
-breadcrumb = COA
-breadcrumb.wrap = <div id="breadcrumb">|</div>
+lib.breadcrumb = COA
+lib.breadcrumb.wrap = <div id="breadcrumb">|</div>
 
 
-breadcrumb.20 = TEXT
-breadcrumb.20.data = LLL:EXT:skin_f2basic/locallang_db.xml:tx_skin_f2basic.tscript.breadcrumb.init
-breadcrumb.20.wrap = <p class="breadcrumbInit"><span class="breadcrumbIcon">-</span> | &nbsp;</p>
+lib.breadcrumb.20 = TEXT
+lib.breadcrumb.20.data = LLL:EXT:skin_f2basic/locallang_db.xml:tx_skin_f2basic.tscript.breadcrumb.init
+lib.breadcrumb.20.wrap = <p class="breadcrumbInit"><span class="breadcrumbIcon">-</span> | &nbsp;</p>
 
-breadcrumb {
+lib.breadcrumb {
 	30 = HMENU
 	30 {
 	 special = rootline
@@ -50,5 +50,5 @@ lib.newstitle {
 
 ### solo si hay una noticia individual
 [globalVar = GP:tx_ttnews|tt_news > 0]
- breadcrumb.30.1.CUR.stdWrap.cObject < lib.newstitle
+ lib.breadcrumb.30.1.CUR.stdWrap.cObject < lib.newstitle
 [global]

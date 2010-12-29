@@ -36,7 +36,7 @@ postCodeFeature >
 preCodeContent = COA
 preCodeContent.10 = HTML
 preCodeContent.10.value = <div id="pageContent">
-preCodeContent.20 < breadcrumb
+preCodeContent.20 =< lib.breadcrumb
 
 
 preCodeGeneratedContent-1 >
@@ -131,19 +131,19 @@ header.10 {
 }
 
 ### topnav
-header.20 < topnav
+header.20 =< lib.topnav
 
 ### Search box
-header.20.20 < topsearchbox
+header.20.20 =< lib.topsearchbox
 
 header.30 = TEXT
 header.30.value = Saltar navegacion e ir al contenido principal
 header.30.wrap = <p class="outOfSight"><a href="#begin-content">|</a></p>
 
-header.40 < globalMenu
+header.40 =< lib.globalMenu
 
 
-footer < lib.footer
+footer =< lib.footer
 
 additionalDocHeadCode = HTML
 additionalDocHeadCode.value (

@@ -1,6 +1,6 @@
 ### Search box
-topsearchbox = COA
-topsearchbox {
+lib.topsearchbox = COA
+lib.topsearchbox {
 	# Only show the search box if there is a valid search page.
 	if.isTrue = {$searchPID}
 	if.isTrue.insertData = 1

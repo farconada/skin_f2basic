@@ -1,9 +1,9 @@
 ### top nagivation
-topnav = COA
-topnav.stdWrap.wrap = <div class="topNav"> | </div><div class="clear"></div>
-topnav.stdWrap.required = 1
-topnav.10 = COA
-topnav.10 {
+lib.topnav = COA
+lib.topnav.stdWrap.wrap = <div class="topNav"> | </div><div class="clear"></div>
+lib.topnav.stdWrap.required = 1
+lib.topnav.10 = COA
+lib.topnav.10 {
 	stdWrap.wrap = <div id="login">|</div>
 	stdWrap.required = 1
 
@@ -65,9 +65,9 @@ topnav.10 {
 }
 
 [loginUser = *]
-topnav.10.10 >
-topnav.10.10 = COA_INT
-topnav.10.10 {
+lib.topnav.10.10 >
+lib.topnav.10.10 = COA_INT
+lib.topnav.10.10 {
 	10 = HMENU
 	10 {
 		special = list
