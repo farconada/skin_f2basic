@@ -1,0 +1,344 @@
+/****************************************************************
+ * Copyright notice
+ *
+ * (c) 2010 Christian Technology Ministries International Inc.
+ * All rights reserved
+ *
+ * This file is part of the Web-Empowered Church (WEC)
+ * (http://WebEmpoweredChurch.org) ministry of Christian Technology Ministries
+ * International (http://CTMIinc.org). The WEC is developing TYPO3-based
+ * (http://typo3.org) free software for churches around the world. Our desire
+ * is to use the Internet to help offer new life through Jesus Christ. Please
+ * see http://WebEmpoweredChurch.org/Jesus.
+ *
+ * You can redistribute this file and/or modify it under the terms of the
+ * GNU General Public License as published by the Free Software Foundation;
+ * either version 2 of the License, or (at your option) any later version.
+ *
+ * The GNU General Public License can be found at
+ * http://www.gnu.org/copyleft/gpl.html.
+ *
+ * This file is distributed in the hope that it will be useful for ministry,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * This copyright notice MUST APPEAR in all copies of the file!
+ ****************************************************************/
+
+/****************************************************************
+ *
+ * This is a modified version of skin_bn_wireframe developed by Ron Hall of BusyNoggin, Inc.
+ *
+ ****************************************************************/
+
+p, ul, ol, dl, table, form, blockquote {
+	margin-bottom: 10px;
+}
+
+
+ul ul, ul ol, ol ol, ol ul {
+	margin-left: 20px;
+	margin-bottom: 0px;
+	}
+
+blockquote blockquote {
+	margin-top: 10px;
+}
+
+
+
+
+/* @group Text & Paragraphs */
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+	}
+
+/* @end Text & Paragraphs */
+
+/* @group Links */
+
+a {
+	color: #3399cc;
+	text-decoration: none;
+	}
+
+a:hover,
+a:focus {
+	color: black;
+}
+
+/* @end Links */
+
+
+
+/* @group Headlines */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	line-height: 1.1em;
+	font-weight: normal;
+	color:#333333;
+	}
+
+h4, h5, h6 {
+	font-weight: bold;
+	}
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 20px;/*the original property is 10px*/
+	/*margin-top: 20px;*/
+	}
+
+
+h2 {
+	font-size: 21px;
+	margin-bottom: 20px;/*the original property is 10px*/
+	/*margin-top: 20px;*/
+	}
+
+h3 {
+	font-size: 18px;
+	margin-bottom: 20px;/*the original property is 10px*/
+	/*margin-top: 20px;*/
+	}
+
+h4 {
+	font-size: 15px;
+	margin-bottom: 5px;
+	}
+
+h5 {
+	font-size: 13px;
+	margin-bottom: 5px;
+	}
+
+h6 {
+	font-size: 12px;
+	margin-bottom: 5px;
+	}
+
+/* @end Headlines */
+
+
+/* @group Lists */
+
+ul, ol {
+	margin-left: 30px;
+	}
+
+ul ul, ul ol, ol ol, ol ul {
+	margin-left: 20px;
+	}
+
+dd {
+	margin-left: 20px;
+	}
+
+/* @end Lists */
+
+
+/* @group Blockquote Styling */
+
+blockquote {
+	margin-left: 30px;
+	margin-right: 30px;
+	}
+
+
+/* @group Common Styles for RTE */
+
+h1.first-header,
+h2.first-header,
+h3.first-header,
+h4.first-header,
+h5.first-header,
+h6.first-header {
+	margin-top: 0px;
+	}
+
+/* @end Common Styles for RTE */
+
+
+
+/* @end Blockquote Styling */
+
+
+/* @group Table Styling */
+
+
+
+td, th, caption {
+	padding-top: 8px;
+	padding-bottom: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: auto;
+}
+
+col {
+	background-color: silver;
+	}
+
+thead th, tfoot th, tfoot td {
+	text-align: left;
+	}
+
+caption {
+	background-color: #ccc;
+	font-style: italic;
+	}
+
+td.spancolumn-1,
+th.spancolumn-1 {
+	width: 30px;
+	}
+
+td.spancolumn-2,
+th.spancolumn-2 {
+	width: 80px;
+	}
+
+td.spancolumn-3,
+th.spancolumn-3 {
+	width: 130px;
+	}
+
+td.spancolumn-4,
+th.spancolumn-4 {
+	width: 180px;
+	}
+	
+td.spancolumn-5,
+th.spancolumn-5 {
+	width: 230px;
+	}
+
+
+td.spancolumn-6,
+th.spancolumn-6 {
+	width: 280px;
+	}
+
+td.spancolumn-7,
+th.spancolumn-7 {
+	width: 330px;
+	}
+
+td.spancolumn-8,
+th.spancolumn-8 {
+	width: 380px;
+	}
+
+td.spancolumn-9,
+th.spancolumn-9 {
+	width: 430px;
+	}
+
+
+td.spancolumn-10,
+th.spancolumn-10 {
+	width: 480px;
+	}
+
+td.spancolumn-11,
+th.spancolumn-11 {
+	width: 530px;
+	}
+
+td.spancolumn-12,
+th.spancolumn-12 {
+	width: 580px;
+	}
+
+
+/* @end Table Styling */
+
+.align-right {
+	text-align: right;
+	}
+
+.align-left {
+	text-align: left;
+	}
+
+.align-center {
+	text-align: center;
+	}
+
+
+/* @group RTE Custom Styles */
+
+h1.first-header,
+h2.first-header,
+h3.first-header,
+h4.first-header,
+h5.first-header,
+h6.first-header {
+	margin-top: 0px;
+	}
+
+.align-right {
+	text-align: right;
+	}
+
+.align-left {
+	text-align: left;
+	}
+
+.align-center {
+	text-align: center;
+	}
+
+p.feature-text,
+ul.feature-text {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-style: italic;
+	}
+
+p.big-text,
+ul.big-text {
+	font-size: 16px;
+	line-height: 24px;
+	}
+
+p.red-highlight,
+span.red-highlight,
+h1.red-highlight,
+h2.red-highlight,
+h3.red-highlight,
+h4.red-highlight,
+h5.red-highlight,
+h6.red-highlight {
+	color: red;
+}
+
+/* @end RTE Custom Styles */
+
+
+
+/* @group RTE Backend Styling */
+
+/* This styling is simply to help the backend text in the RTE look approximately like the text on the front end of the site. You will need to adjust to fit the styling you have assigned in mainstyles.css*/
+
+.htmlarea-content-body,
+.htmlarea-content-body td,
+.htmlarea-content-body th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	color: #333333;
+	font-weight: normal;
+	height: 100%;
+}
+
+/* @end RTE Backend Styling  */
+

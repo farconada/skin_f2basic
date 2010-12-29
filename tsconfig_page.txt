@@ -1,0 +1,14 @@
+//remove unused (old) sections frames
+TCEFORM.tt_content.section_frame.removeItems = 1,5,6,10,11,12,20,21
+
+//add our new section_frames
+TCEFORM.tt_content.section_frame.addItems.45 = LLL:EXT:skin_f2basic/locallang_db.xml:tt_content.section_frames_45
+TCEFORM.tt_content.section_frame.addItems.46 = LLL:EXT:skin_f2basic/locallang_db.xml:tt_content.section_frames_46
+TCEFORM.tt_content.section_frame.addItems.47 = LLL:EXT:skin_f2basic/locallang_db.xml:tt_content.section_frames_47
+TCEFORM.tt_content.section_frame.addItems.48 = LLL:EXT:skin_f2basic/locallang_db.xml:tt_content.section_frames_48
+TCEFORM.tt_content.section_frame.addItems.49 = LLL:EXT:skin_f2basic/locallang_db.xml:tt_content.section_frames_49
+TCEFORM.tt_content.section_frame.addItems.50 = LLL:EXT:skin_f2basic/locallang_db.xml:tt_content.section_frames_50
+TCEFORM.tt_content.section_frame.addItems.51 = LLL:EXT:skin_f2basic/locallang_db.xml:tt_content.section_frames_51
+TCEFORM.tt_content.section_frame.addItems.52 = LLL:EXT:skin_f2basic/locallang_db.xml:tt_content.section_frames_52
+TCEFORM.tt_content.section_frame.addItems.53 = LLL:EXT:skin_f2basic/locallang_db.xml:tt_content.section_frames_53
+TCEFORM.tt_content.section_frame.addItems.54 = LLL:EXT:skin_f2basic/locallang_db.xml:tt_content.section_frames_54
