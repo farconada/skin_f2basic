@@ -90,12 +90,12 @@ lib.parseFunc_RTE.nonTypoTagStdWrap.encapsLines.addAttributes.P.class >
 
 
 header >
-header = COA
-header.wrap = <div id="header"> <div class="interior">| </div><!-- interior end--></div>
+lib.myheader = COA
+lib.myheader.wrap = <div id="header"> <div class="interior">| </div><!-- interior end--></div>
 
 # Add the masthead for site title / logo.
-header.10 = COA
-header.10 {
+lib.myheader.10 = COA
+lib.myheader.10 {
 	wrap = <div id="masthead"> | </div>
 
 	# Add <h1> wrapped title if there's no logo
@@ -131,18 +131,18 @@ header.10 {
 }
 
 ### topnav
-header.20 =< lib.topnav
+lib.myheader.20 =< lib.topnav
 
 ### Search box
-header.20.20 =< lib.topsearchbox
+lib.myheader.20.20 =< lib.topsearchbox
 
-header.30 = TEXT
-header.30.value = Saltar navegacion e ir al contenido principal
-header.30.wrap = <p class="outOfSight"><a href="#begin-content">|</a></p>
+lib.myheader.30 = TEXT
+lib.myheader.30.value = Saltar navegacion e ir al contenido principal
+lib.myheader.30.wrap = <p class="outOfSight"><a href="#begin-content">|</a></p>
 
-header.40 =< lib.globalMenu
+lib.myheader.40 =< lib.globalMenu
 
-
+header =< lib.myheader
 footer =< lib.footer
 
 additionalDocHeadCode = HTML
