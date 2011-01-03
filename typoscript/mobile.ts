@@ -13,6 +13,9 @@
 	page.includeCSS.tf_skin_main.media = screen and (min-width: 481px)
 	page.includeCSS.mobile = EXT:skin_f2basic/css/mobile.css
 	page.includeCSS.mobile.media = only screen and (max-width: 480px)
+	
+	page.meta.viewport = user-scalable=no, width=device-width
+	
 	#pageMobile.10.subparts.logoheader.10.file.width = 150
 	#pageMobile.includeJS >
 	#pageMobile.includeCSS.file2.alternate = 0
