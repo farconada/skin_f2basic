@@ -10,6 +10,8 @@
 	lib.globalMenu.entryLevel = 0
 	#sin menu TopNav
 	lib.topnav.10 >
+	#sin lib footerMenuWeb
+	lib.footer.10 >
 
 	page.includeCSS.tf_skin_main.media = screen and (min-width: 481px)
 	page.includeCSS.mobile = EXT:skin_f2basic/css/mobile.css
