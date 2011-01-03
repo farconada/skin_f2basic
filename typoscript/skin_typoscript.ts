@@ -138,7 +138,7 @@ lib.myheader.20.20 =< lib.topsearchbox
 
 lib.myheader.30 = TEXT
 lib.myheader.30.value = Saltar navegacion e ir al contenido principal
-lib.myheader.30.wrap = <p class="outOfSight"><a href="#begin-content">|</a></p>
+lib.myheader.30.wrap = <p class="outOfSight"><a href="#pageContent">|</a></p>
 
 lib.myheader.40 =< lib.globalMenu
 
