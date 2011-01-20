@@ -40,7 +40,9 @@ preCodeContent.20 =< lib.breadcrumb
 
 
 preCodeGeneratedContent-1 >
-postCodeGeneratedContent-1 >
+postCodeGeneratedContent-1 = COA
+postCodeGeneratedContent-1.10 = HTML
+postCodeGeneratedContent-1.10.value = <div class="clear"></div>
 
 preCodeContentBlock-1 = COA
 preCodeContentBlock-1.10 = HTML
@@ -48,17 +50,26 @@ preCodeContentBlock-1.10.value = <a href="#beginContent" id="beginContent" class
 preCodeContentBlock-1.20 = TEXT
 preCodeContentBlock-1.20.data = page:title
 preCodeContentBlock-1.20.wrap = <h2 class="outOfSight">|</h2>
-postCodeContentBlock-1 >
+postCodeContentBlock-1 = COA
+postCodeContentBlock-1.10 = HTML
+postCodeContentBlock-1.10.value = <div class="clear"></div>
+
+
 
 preCodeGeneratedContent-2 >
-postCodeContentBlock-2 = HTML
-postCodeContentBlock-2.value = <div class="clear"></div>
+postCodeContentBlock-2 = COA
+postCodeContentBlock-2.10 = HTML
+postCodeContentBlock-2.10.value = <div class="clear"></div>
 
 preCodeContentBlock-3 >
-postCodeContentBlock-3 >
+postCodeContentBlock-3 = COA
+postCodeContentBlock-3.10 = HTML
+postCodeContentBlock-3.10.value = <div class="clear"></div>
 
 preCodeGeneratedContent-2 >
-postCodeGeneratedContent-2 >
+postCodeGeneratedContent-2 = COA
+postCodeGeneratedContent-2.10 = HTML
+postCodeGeneratedContent-2.10.value = <div class="clear"></div>
 
 
 preCodeFooter = COA
