@@ -40,9 +40,7 @@ preCodeContent.20 =< lib.breadcrumb
 
 
 preCodeGeneratedContent-1 >
-postCodeGeneratedContent-1 = COA
-postCodeGeneratedContent-1.10 = HTML
-postCodeGeneratedContent-1.10.value = <div class="clear"></div>
+postCodeGeneratedContent-1 >
 
 preCodeContentBlock-1 = COA
 preCodeContentBlock-1.10 = HTML
