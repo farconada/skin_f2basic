@@ -213,4 +213,3 @@ page {
 }
 
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin_f2basic/typoscript/mobile.ts">
-

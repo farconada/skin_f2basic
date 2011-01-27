@@ -1,6 +1,7 @@
 siteLogo = {$templavoila_framework.skinPath}css/images/logo.gif
 siteLogoMaxH = 350
 siteLogoMaxW = 150 
+enable_mobile_skin = 1
 
 headerNavigationIncludeList = 1
 footerNavigationIncludeList = 1
