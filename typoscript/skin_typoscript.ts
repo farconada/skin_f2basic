@@ -203,8 +203,8 @@ page {
 		xhtml_cleaning = all
 		htmlTag_langKey = es-ES
 		index_enable = 1
-		metaCharset = iso-8859-1
-		#additionalHeaders = Content-Type:text/html;charset=utf-8
+		metaCharset = utf-8
+		additionalHeaders = Content-Type:text/html;charset=utf-8
 		doctype = xhtml_trans
 		xhtmlDoctype = xhtml_trans
 		xmlprologue = none
