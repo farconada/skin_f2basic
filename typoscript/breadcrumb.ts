@@ -18,12 +18,12 @@ lib.breadcrumb {
 	     # no unneccessary scripting.
 	     1.noBlur = 1
 
-	     1.NO {
-			 stdWrap.field = title
-			 ATagTitle.field = nav_title // title
-			 //linkWrap = ||*|  &nbsp;>&nbsp; |*|
-			 stdWrap.wrap = <li>|</li>
-		 }
+            1.NO {
+                         stdWrap.field = title
+                         //ATagTitle.field = nav_title // title
+                         //linkWrap = ||*|  &nbsp;>&nbsp; |*|
+                         allWrap = <li>|</li>
+                  }	
 
 		 # Current item should be unlinked
 	     1.CUR = 1

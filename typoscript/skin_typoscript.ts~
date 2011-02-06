@@ -50,10 +50,9 @@ preCodeContentBlock-1.20.data = page:title
 preCodeContentBlock-1.20.wrap = <h2 class="outOfSight">|</h2>
 postCodeContentBlock-1 >
 
-
-
 preCodeGeneratedContent-2 >
-postCodeContentBlock-2 >
+postCodeContentBlock-2 = HTML
+postCodeContentBlock-2.value = <div class="clear"></div>
 
 preCodeContentBlock-3 >
 postCodeContentBlock-3 >
@@ -65,7 +64,6 @@ postCodeGeneratedContent-2 >
 preCodeFooter = COA
 preCodeFooter.10 = HTML
 preCodeFooter.10.value (
-	<div class="clear"></div>
 	</div>
 	<!-- end #pageContent -->
 	<div class="clear"></div>
@@ -140,7 +138,7 @@ lib.myheader.20.20 =< lib.topsearchbox
 
 lib.myheader.30 = TEXT
 lib.myheader.30.value = Saltar navegacion e ir al contenido principal
-lib.myheader.30.wrap = <p class="outOfSight"><a href="#pageContent">|</a></p>
+lib.myheader.30.wrap = <p class="outOfSight"><a href="#begin-content">|</a></p>
 
 lib.myheader.40 =< lib.globalMenu
 
@@ -203,8 +201,8 @@ page {
 		xhtml_cleaning = all
 		htmlTag_langKey = es-ES
 		index_enable = 1
-		metaCharset = utf-8
-		additionalHeaders = Content-Type:text/html;charset=utf-8
+		metaCharset = iso-8859-1
+		#additionalHeaders = Content-Type:text/html;charset=utf-8
 		doctype = xhtml_trans
 		xhtmlDoctype = xhtml_trans
 		xmlprologue = none
@@ -212,4 +210,4 @@ page {
 	}
 }
 
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:skin_f2basic/typoscript/mobile.ts">
+
