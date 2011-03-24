@@ -360,9 +360,6 @@ legend {
 #header {
 	margin-top: 0px;
 	position:relative;
-        background-image:url("/fileadmin/images/header-bg.jpg");
-        background-position:right center;
-        background-repeat:no-repeat;
 	}
 
 #masthead {
