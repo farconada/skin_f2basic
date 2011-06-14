@@ -9,7 +9,6 @@ lib.menuL2.1 {
 				IFSUB= 1
 				ACTIFSUB = 1
 				accessKey = 1
-				ATagTitle.field=title
 }
 
 # Wrap the first level of the menu inside an unordered list
@@ -18,11 +17,13 @@ lib.menuL2.1.wrap = <ul class="cb-menu">|</ul>
 # Formatting of menu normal entries as list items.
 lib.menuL2.1.NO {
 				wrapItemAndSub = <li class="normal minus">|</li>
+				ATagTitle.field=title
 				}
 
 # Current menu item is unlinked and wrapped in span
 lib.menuL2.1.CUR {
 				wrapItemAndSub = <li class="current minus">|</li>
+				ATagTitle.field=title
 				doNotLinkIt = 0
 				allWrap = <span>|</span>
 				}
@@ -30,11 +31,13 @@ lib.menuL2.1.CUR {
 # If the menu item has subs add class plus to change icon to it has subs
 lib.menuL2.1.IFSUB {
 				wrapItemAndSub = <li class="normal plus">|</li>
+				ATagTitle.field=title
 				}
 
 # Active items above current to be formatted differently
 lib.menuL2.1.ACTIFSUB {
 				wrapItemAndSub = <li class="active minus">|</li>
+				ATagTitle.field=title
 				}
 
 
