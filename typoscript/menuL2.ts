@@ -9,6 +9,7 @@ lib.menuL2.1 {
 				IFSUB= 1
 				ACTIFSUB = 1
 				accessKey = 1
+				ATagTitle.field=title
 }
 
 # Wrap the first level of the menu inside an unordered list
