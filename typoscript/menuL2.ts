@@ -43,18 +43,23 @@ lib.menuL2.1.ACTIFSUB {
 
 lib.menuL2.2 < lib.menuL2.1
 
-
-lib.menuL2.2 = TMENU
+lib.menuL2.2  < lib.menuL2.1
 lib.menuL2.2.wrap = <ul class="cb-submenu">|</ul>
 
-lib.menuL2.3 = TMENU
+lib.menuL2.3 < lib.menuL2.1
 lib.menuL2.3.wrap = <ul class="cb-subsubmenu">|</ul>
 
-lib.menuL2.4 = TMENU
+lib.menuL2.4 < lib.menuL2.1
 lib.menuL2.4.wrap = <ul class="cb-subsubsubmenu">|</ul>
 
-lib.menuL2.5 = TMENU
+lib.menuL2.5 < lib.menuL2.1
 lib.menuL2.5.wrap = <ul class="cb-subsubsubsubmenu">|</ul>
 
-lib.menuL2.6 = TMENU
+lib.menuL2.6 < lib.menuL2.1
 lib.menuL2.6.wrap = <ul class="cb-subsubsubsubmenu">|</ul>
+
+lib.menuL2.7 < lib.menuL2.1
+lib.menuL2.7.wrap = <ul class="cb-subsubsubsubsubmenu">|</ul>
+
+lib.menuL2.8 < lib.menuL2.1
+lib.menuL2.8.wrap = <ul class="cb-subsubsubsubsubsubmenu">|</ul>
